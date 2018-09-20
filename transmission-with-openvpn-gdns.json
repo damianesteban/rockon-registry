@@ -5,7 +5,7 @@
         "description": "Docker container running Transmission torrent client with WebUI while connecting to OpenVPN",
         "more_info": "<p>See the container's documentation for a list of included VPN provider profiles. If your provider isn't included, set it up as a custom provider, by putting the relevant files in the <code>Custom profile</code> share.</p>",
         "containers": {
-            "transmission-openvpn": {
+            "transmission-openvpn-gdns": {
                 "image": "haugene/transmission-openvpn",
                 "launch_order": 1,
                 "opts": [
