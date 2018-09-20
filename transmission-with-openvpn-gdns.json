@@ -1,5 +1,5 @@
 {
-    "Transmission - OpenVPN GDNS": {
+    "TRGDNS": {
         "website": "https://hub.docker.com/r/haugene/transmission-openvpn/",
         "version": "1.0",
         "description": "Docker container running Transmission torrent client with WebUI while connecting to OpenVPN",
@@ -28,7 +28,7 @@
                     [
                         "--dns",
                         "8.8.4.4"
-                     ]
+                    ]
                 ],
                 "volumes": {
                     "/data": {
